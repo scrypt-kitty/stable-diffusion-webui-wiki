@@ -195,7 +195,7 @@ Options for inpainting:
 ## Inpainting model
 RunwayML has trained an additional model specifically designed for inpainting. This model accepts additional inputs - the initial image without noise plus the mask - and seems to be much better at the job.
 
-Download and extra info for the model is here: https://github.com/runwayml/stable-diffusion#inpainting-with-stable-diffusion
+The original GitHub repository has been unpublished, but a mirror has been provided for posterity. Download and extra info for the model is here: https://github.com/scrypt-kitty/stable-diffusion-v1-5#inpainting-with-stable-diffusion (mirror)
 
 To use the model, you must rename the checkpoint so that its filename ends in `inpainting.ckpt`, for example, `1.5-inpainting.ckpt`.
 
