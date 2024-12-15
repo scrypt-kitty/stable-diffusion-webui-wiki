@@ -6,9 +6,9 @@ Making your own inpainting model is very simple:
 1. Go to Checkpoint Merger
 2. Select "Add Difference"
 3. Set "Multiplier" to 1.0
-4. Set "A" to the official inpaint model ([SD-v1.5-Inpainting](https://huggingface.co/runwayml/stable-diffusion-inpainting/tree/main))
+4. Set "A" to the official inpaint model ([SD-v1.5-Inpainting](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-inpainting/tree/main))
 5. Set "B" to your model
-6. Set "C" to the standard base model ([SD-v1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main))
+6. Set "C" to the standard base model ([SD-v1.5](https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/tree/main))
 7. Set name as whatever you want, probably (your model)_inpainting
 8. Set other values as preferred, ie probably select "Safetensors" and "Save as float16"
 9. Hit merge
